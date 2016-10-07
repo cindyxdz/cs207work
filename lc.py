@@ -80,7 +80,7 @@ class LightCurveDB(object):
 			self._color_index[color].append(self._collection[f])
      
     #your code here
-    def retrieve(self, facet, value):
+	def retrieve(self, facet, value):
 		if facet == 'tile':
 			return self._tile_index[value]
 		elif facet == 'field':
